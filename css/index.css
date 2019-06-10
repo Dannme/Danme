@@ -1,0 +1,49 @@
+/* setting */
+* {margin: 0; padding: 0; text-decoration: none; list-style: none; font-family: 'Jua', sans-serif;}
+
+/* layout */
+.wrap {width: 100%; height: 100%; position: absolute; background: cyan;}
+.section {width: 100%; height: 100vh; background: tomato;}
+.section-content {width: 100%; height: 100vh; background: orange;}
+.section-content1 {width: 100%; height: 100vh; position: relative; background-image: url(https://t1.daumcdn.net/cfile/tistory/9916C2425A9833CF20); background-repeat: no-repeat; background-size: cover;}
+.flexbox {width: 100%; height: 100vh; background: paleturquoise; display: flex;}
+/* .main_div */
+
+
+/* header */
+.section>a {width: 200px; height: 100px; float: left; position: absolute;}
+.section img {width: 100%; height: 100%; padding: 20px 40px;}
+
+.menu {width: 700px; height: 70px; position: absolute; right: 0; top: 30px;}
+.borderbox {width: 0; height: 3px; background: #fff; position: absolute; bottom: 0; left: 50%; transform: translate(-50%,0); transition: 0.5s; border-radius: 5px;}
+.menu li:hover .borderbox {width: 80px;}
+.menu a {display: block; color: black;}
+.menu li {width: 100px; height: 70px; line-height: 70px; text-align: center; float: left; font-size: 30px; margin-left: 50px; position: relative; transition: 0.3s;}
+.menu li:hover a {color: yellow; transition: 0.3s;}
+
+/* game */
+.section-content img {border-radius: 50px; position: absolute; top: 100px; left: 50px;}
+.section-content img:hover {opacity: 0.5; filter: alpha(opacity=50);}
+
+
+/* ani */
+.section-content1 p {font-size: 200px; color: white; position: absolute; top: 100px; left: 100px;}
+.ani {width: 250px; height: 100px; color: yellow; font-size: 60px; position: absolute; transition: 0.4s; text-align: center; line-height: 100px; bottom: 150px;}
+.go {right: 300px;}
+.go1 {right: 600px;}
+.ani:hover {color: #000; transition: 0.4s;}
+.youtube {position: absolute; right: 200px; top: 100px;}
+
+/* flexbox */
+.box {flex: 1; position: relative; transition: 1s;}
+.flexbox div a {width: 100%; height: 100%; position: absolute; top: 50%; left: 50%; transform: translate(-50%,-50%); font-size: 60px; color: #fff; text-align: center; line-height: 100vh;}
+.flex-img {width: 100%; height: 100%; display: none;}
+.poppin {background: pink;}
+.after {background: red;}
+.pastel {background: lightgreen;}
+.roselia {background: purple;}
+.hello {background: yellow;}
+.box:hover {flex: 3; transition: 1s;}
+.box:hover a {top: 50%; left: 50%; transform: translate(-50%,-50%);}
+
+
